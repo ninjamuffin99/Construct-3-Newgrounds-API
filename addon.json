@@ -2,7 +2,7 @@
 	"is-c3-addon": true,
 	"type": "plugin",
 	"name": "Newgrounds API",
-	"id": "ninjamuffin-NGAPI",
+	"id": "ninjamuffin_NGAPI",
 	"version": "1.0.0.0",
 	"author": "NinjaMuffin99",
 	"website": "https://www.construct.net",
