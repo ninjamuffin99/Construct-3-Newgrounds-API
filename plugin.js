@@ -9,7 +9,7 @@
 	// Only the plugin name is displayed in the editor, so to rename your plugin change the name but NOT the ID.
 	// If you want to completely replace a plugin, make it deprecated (it will be hidden but old projects keep working),
 	// and create an entirely new plugin with a different plugin ID.
-	const PLUGIN_ID = "MyCustomPlugin";
+	const PLUGIN_ID = "ninjamuffin_NGAPI";
 	////////////////////////////////////////////
 	
 	const PLUGIN_VERSION = "1.0.0.0";
