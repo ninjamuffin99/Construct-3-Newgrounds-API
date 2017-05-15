@@ -1,0 +1,16 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "plugin",
+	"name": "Newgrounds API",
+	"id": "ninjamuffin-NGAPI",
+	"version": "1.0.0.0",
+	"author": "NinjaMuffin99",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "A Construct 3 port of Rapier34's Construct 2 plugin",
+	"editor-scripts": [
+						"plugin.js",
+						"type.js",
+						"instance.js"
+					]
+}
