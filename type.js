@@ -1,9 +1,9 @@
 "use strict";
 
 {
-	const PLUGIN_CLASS = SDK.Plugins.MyCustomPlugin;
+	const PLUGIN_CLASS = SDK.Plugins.NewgroundsAPI;
 	
-	PLUGIN_CLASS.Type = class MyCustomPluginType extends SDK.ITypeBase
+	PLUGIN_CLASS.Type = class NewgroundsAPI extends SDK.ITypeBase
 	{
 		constructor(sdkPlugin, iObjectType)
 		{

@@ -9,15 +9,15 @@
 	// Only the plugin name is displayed in the editor, so to rename your plugin change the name but NOT the ID.
 	// If you want to completely replace a plugin, make it deprecated (it will be hidden but old projects keep working),
 	// and create an entirely new plugin with a different plugin ID.
-	const PLUGIN_ID = "MyCustomPlugin";
+	const PLUGIN_ID = "NewgroundsAPI";
 	////////////////////////////////////////////
 	
 	const PLUGIN_VERSION = "1.0.0.0";
-	const PLUGIN_CATEGORY = "general";
+	const PLUGIN_CATEGORY = "platform-specific";
 	
 	let app = null;
 	
-	const PLUGIN_CLASS = SDK.Plugins.MyCustomPlugin = class MyCustomPlugin extends SDK.IPluginBase
+	const PLUGIN_CLASS = SDK.Plugins.NewgroundsAPI = class NewgroundsAPI extends SDK.IPluginBase
 	{
 		constructor()
 		{
