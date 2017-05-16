@@ -1,7 +1,7 @@
 "use strict";
 
 {
-	const PLUGIN_CLASS = SDK.Plugins.MyCustomPlugin;
+	const PLUGIN_CLASS = SDK.Plugins.NewgroundsAPI;
 	
 	PLUGIN_CLASS.Instance = class MyCustomInstance extends SDK.IInstanceBase
 	{
