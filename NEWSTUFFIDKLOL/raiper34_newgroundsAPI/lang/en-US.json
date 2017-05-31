@@ -1,0 +1,54 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for Newgrounds API.",
+	"text": {
+		"plugins": {
+			"newgroundsapi": {
+				"name": "Newgrounds API",
+				"description": "Newgrouds API alfa",
+				"help-url": "http://www.raiper34.net/en",
+				"properties": {
+				},
+				"aceCategories": {
+					"newgroundsapi": "NewgroundsAPI",
+					"my_category": "My category"
+				},
+				"conditions": {
+					"mycondition0": {
+						"list-name": "Is number positive",
+						"display-text": "{0} is positive",
+						"description": "Description for my condition!",
+						"params": {
+							"number0": { "name":"Number", "desc":"Enter a number to test if positive."}
+						}
+						}
+				},
+				"actions": {
+					"start_api0": {
+						"list-name": "Start API",
+						"display-text": "Start API ID: [b]{0}[/b] and Encryption key: [b]{1}[/b]",
+						"description": "Start Newgrounds API.",
+						"params": {
+							"api_id0": { "name":"API_ID", "desc":"Enter a string of your API ID."},
+							"encryption_key1": { "name":"ENCRYPTION_KEY", "desc":"Enter a string of your Encryption key."}
+						}
+					},
+					"unlock1": {
+						"list-name": "Unlock medal",
+						"display-text": "Unlock medal: [b]{0}[/b]",
+						"description": "Unlock medal",
+						"params": {
+							"medal_name0": { "name":"MEDAL_NAME", "desc":"Enter a string of your medal name."}
+						}
+					}
+				},
+				"expressions": {
+					"myexpression": {
+						"description": "Return the number 1337.",
+						"translated-name": "MyExpression"
+						}
+				}
+			}
+		}
+	}
+}

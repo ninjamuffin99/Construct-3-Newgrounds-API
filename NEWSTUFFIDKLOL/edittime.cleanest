@@ -1,0 +1,66 @@
+﻿function GetPluginSettings()
+{
+return {
+"name":			"Newgrounds API",
+"id":			"NewgroundsAPI",
+"version":		"1.0",
+"description":	"Newgrouds API alfa",
+"author":		"Raiper34",
+"help url":		"http://www.raiper34.net/en",
+"category":		"Platform specific",
+"type":			"object",
+"rotatable":	false,
+"flags":		0,
+"dependency":	"NG.min.js"
+};
+};
+AddNumberParam("Number", "Enter a number to test if positive.");
+AddCondition(0, cf_none, "Is number positive", "My category", "{0} is positive", "Description for my condition!", "MyCondition");
+AddStringParam("API_ID", "Enter a string of your API ID.");
+AddStringParam("ENCRYPTION_KEY", "Enter a string of your Encryption key.");
+AddAction(0, af_none, "Start API", "NewgroundsAPI", "Start API ID: <b>{0}</b> and Encryption key: <b>{1}</b> ", "Start Newgrounds API.", "Start_API");
+AddStringParam("MEDAL_NAME", "Enter a string of your medal name.");
+AddAction(1, af_none, "Unlock medal", "NewgroundsAPI", "Unlock medal: <b>{0}</b> ", "Unlock medal", "Unlock");
+AddExpression(0, ef_return_number, "Leet expression", "My category", "MyExpression", "Return the number 1337.");
+ACESDone();
+var property_list = [
+];
+function CreateIDEObjectType()
+{
+return new IDEObjectType();
+}
+function IDEObjectType()
+{
+assert2(this instanceof arguments.callee, "Constructor called as a function");
+}
+IDEObjectType.prototype.CreateInstance = function(instance)
+{
+return new IDEInstance(instance);
+}
+function IDEInstance(instance, type)
+{
+assert2(this instanceof arguments.callee, "Constructor called as a function");
+this.instance = instance;
+this.type = type;
+this.properties = {};
+for (var i = 0; i < property_list.length; i++)
+this.properties[property_list[i].name] = property_list[i].initial_value;
+}
+IDEInstance.prototype.OnInserted = function()
+{
+}
+IDEInstance.prototype.OnDoubleClicked = function()
+{
+}
+IDEInstance.prototype.OnPropertyChanged = function(property_name)
+{
+}
+IDEInstance.prototype.OnRendererInit = function(renderer)
+{
+}
+IDEInstance.prototype.Draw = function(renderer)
+{
+}
+IDEInstance.prototype.OnRendererReleased = function(renderer)
+{
+}

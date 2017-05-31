@@ -1,0 +1,16 @@
+{
+	"is-c3-addon": true,
+	"type": "plugin",
+	"name": "Newgrounds API",
+	"id": "NewgroundsAPI",
+	"version": "1.0.0.0",
+	"author": "Raiper34",
+	"website": "http://www.raiper34.net/en",
+	"documentation": "http://www.raiper34.net/en",
+	"description": "Newgrouds API alfa",
+	"editor-scripts": [
+						"plugin.js",
+						"type.js",
+						"instance.js"
+					]
+}

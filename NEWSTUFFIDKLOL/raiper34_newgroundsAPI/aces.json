@@ -1,0 +1,54 @@
+{
+	"newgroundsapi": {
+		"conditions": [
+		],
+		"actions": [
+			{
+				"c2id": 0,
+				"id": "start_api0",
+				"scriptName": "Start_API",
+				"highlight": false,
+				"params": [
+					{"id":"api_id0", "type":"string"},
+					{"id":"encryption_key1", "type":"string"}
+				]
+			},
+			{
+				"c2id": 1,
+				"id": "unlock1",
+				"scriptName": "Unlock",
+				"highlight": false,
+				"params": [
+					{"id":"medal_name0", "type":"string"}
+				]
+			}
+		],
+		"expressions": [
+		]
+	},
+	"my_category": {
+		"conditions": [
+			{
+				"c2id": 0,
+				"id": "mycondition0",
+				"scriptName": "MyCondition",
+				"highlight": false,
+				"params": [
+					{"id":"number0", "type":"number"}
+				]
+			}
+		],
+		"actions": [
+		],
+		"expressions": [
+			{
+				"c2id": 0,
+				"id": "myexpression",
+				"expressionName": "MyExpression",
+				"scriptName": "MyExpression",
+				"highlight": false,
+				"returnType": "number"
+			}
+		]
+	}
+}
