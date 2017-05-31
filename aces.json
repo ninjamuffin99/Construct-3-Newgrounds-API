@@ -19,6 +19,19 @@
 				"scriptName": "Alert",
 				"highlight": true
 			}
+			
+			{
+				"id": "0",
+				"scriptName": "Start_API"
+			}
+			{
+				"id": "1",
+				"scriptName": "Unlock"
+			}
+			
+			AddAction(0, af_none, "Start API", "NewgroundsAPI", "Start API ID: <b>{0}</b> and Encryption key: <b>{1}</b> ", "Start Newgrounds API.", "Start_API");
+
+			
 		],
 		"expressions": [
 			{

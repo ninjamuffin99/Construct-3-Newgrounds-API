@@ -12,5 +12,6 @@
 						"plugin.js",
 						"type.js",
 						"instance.js"
+						"NG.min.js"
 					]
 }

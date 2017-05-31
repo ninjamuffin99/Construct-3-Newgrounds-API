@@ -38,11 +38,18 @@
 			
 			this._info.SetProperties([
 				new SDK.PluginProperty("integer", "test-property", 0)
+				
+				new SDK.PluginProperty("text", "API KEY", "I have no idea what I'm doing")
+				
+				new SDK.PluginProperty("text", Encryption Key", "I really don't")
+				
 			]);
 			
 			SDK.Lang.PopContext();		// .properties
 			
 			SDK.Lang.PopContext();
+			
+			this._info.SetSingleGlobal(true);
 		}
 	};
 	
