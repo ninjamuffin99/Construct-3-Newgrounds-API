@@ -1,16 +1,24 @@
 ﻿{
 	"languageTag": "en-US",
-	"fileDescription": "Strings for MyCustomPlugin.",
+	"fileDescription": "Strings for NewgroundsAPI",
 	"text": {
 		"plugins": {
 			"mycustomplugin": {
 				"name": "NewgroundsAPI",
-				"description": "Testing a custom third-party plugin.",
-				"help-url": "https://www.scirra.com",
+				"description": "A C3 port of Rapier's C2 NG API addon",
+				"help-url": "https://github.com/ninjamuffin99/Construct-3-Newgrounds-API/issues/new",
 				"properties": {
 					"test-property": {
 						"name": "Test property",
 						"desc": "A test number property. Displayed by 'Alert' action."
+					}
+					"API KEY": {
+						"name": "The API KEY", 
+						"desc": "The key for the api??"
+					}
+					"Encryption Key": {
+						"name": "Encryption Key",
+						"desc": "The Encryption key lol"
 					}
 				},
 				"aceCategories": {
@@ -35,7 +43,16 @@
 						"display-text": "Do alert",
 						"description": "Do a dummy alert."
 					}
-					
+					"0": {
+						"list-name": "Start API",
+						"display-text": "Starts API??",
+						"description": "It maybe starts the API idk"
+					}
+					"1": {
+						"list-name": Unlock Medal",
+						"display-text": "Unlcoksmedlaeheh",
+						"description": "IT UNLCOKS A DANG MEDAL"
+					}
 				},
 				"expressions": {
 					"double": {
