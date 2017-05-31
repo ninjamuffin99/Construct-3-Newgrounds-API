@@ -35,6 +35,7 @@
 						"display-text": "Do alert",
 						"description": "Do a dummy alert."
 					}
+					
 				},
 				"expressions": {
 					"double": {

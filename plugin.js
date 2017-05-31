@@ -32,6 +32,7 @@
 			this._info.SetAuthor("Scirra");
 			this._info.SetHelpUrl(lang(".help-url"));
 			this._info.SetIsSingleGlobal(true);
+			this._info.SetIcon("Icon.png");
 			
 			SDK.Lang.PushContext(".properties");
 			
